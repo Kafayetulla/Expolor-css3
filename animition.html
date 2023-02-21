@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animition</title>
+    <style>
+        @keyframes sliding{
+            from{
+                background-color: blue;
+            }
+            to{
+                background-color: brown;
+            }
+        }
+        .strag{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+        .ball{
+            width: 30px;
+            height: 30px;
+            background-color: red;
+            border-radius: 25px;
+            animation-play-state: sliding 1s ease-in-out 0.5s infi ;
+            animation-play-state: running;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lets Expoler animition</h1>
+    <div class="strag">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>
